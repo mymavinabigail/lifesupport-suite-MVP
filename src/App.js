@@ -7,7 +7,7 @@ import Fourth from "./pages/fourth";
 
 function App() {
   return (
-    <BrowserRouter basename={"/story"}>
+    <BrowserRouter basename={"/"}>
       <Routes>
         <Route path="/" element={<Form />} />
         <Route path="/first" element={<First />} />
