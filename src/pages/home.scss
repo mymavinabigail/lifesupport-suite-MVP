@@ -1,0 +1,360 @@
+
+.mileButton {
+  background-color: #34d54f;
+  padding: 1px;
+  border-radius: 8px;
+  margin: 1px;
+  width: 100px;
+  color: white;
+}
+.chalButton {
+  background-color: #af3030;
+  padding: 1px;
+  border-radius: 8px;
+  margin: 1px;
+  width: 100px;
+  color: white;
+}
+
+
+
+.addButton {
+  background-color: #4f2de7;
+  border: none;
+  border-radius: 10px;
+  width: 120px;
+  padding: 4px;
+  color: white;
+  margin: 4px;
+}
+
+table {
+  color: white;
+  width: 100%;
+  padding: 20px;
+  thead {
+    background-color: #262626;
+  }
+  tr {
+    height: 38px;
+  }
+  td {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+  }
+  tbody {
+    background-color: #1c1c1c;
+  }
+}
+.fourth-screen .mileButton {
+  background-color: #34d54f;
+  padding: 0px;
+  width: 100%;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  min-height: 35px;
+  line-height: 35px;
+    overflow: hidden;
+}
+.fourth-screen .chalButton {
+  background-color: #af3030;
+  width: 100%;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  min-height: 35px;
+  line-height: 35px;
+    overflow: hidden;
+}
+.chapter {
+  display: flex;
+  padding-right: 20px;
+  justify-content: flex-end;
+
+  .next {
+    background-color: #24dd1e;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    border-radius: 10px;
+  }
+}
+.chartRed {
+  background-color: red;
+  height: 38px;
+  width: 50px;
+  text-align: center;
+  margin: auto;
+}
+.chartOrange {
+  background-color: orange;
+  height: 38px;
+  width: 50px;
+  text-align: center;
+  margin: auto;
+}
+
+.chartGreen {
+  background-color: green;
+  height: 38px;
+  width: 50px;
+  text-align: center;
+  margin: auto;
+}
+
+.critical {
+  color: red !important;
+}
+
+.warning {
+  color: orange !important;
+}
+
+.normal {
+  color: green !important;
+}
+.MuiSlider-rail {
+  color: #1c1c1c !important;
+}
+.MuiSlider-track {
+  width: 60px !important;
+  border-radius: 0px !important;
+}
+.MuiSlider-thumb {
+  border-radius: 0px !important;
+  width: 60px !important;
+  box-shadow: none !important;
+  height: 0px !important;
+}
+
+.fourth-screen .bottom thead {
+  display: none;
+}
+
+.title>div:first-child {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table td img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+table td {
+  position: relative;
+}
+
+table thead tr td {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: .1px;
+  padding: 6px 15px;
+  background-color: #000;
+}
+table td {
+  padding: 8px 5px;
+}
+.spacer {
+  width: 50px;
+  max-width: 50px;
+  min-width: 50px;
+}
+.spacer {
+  border-left: 0;
+}
+// table thead tr td:after {
+//   content: "";
+//   border-left: 1px solid #3d3b3b;
+//   position: absolute;
+//   top: 0;
+//   bottom: 0;
+//   left: 0;
+//   right: 0;
+// }
+
+.fourth-screen table tbody td {
+  padding: 4px 2px;
+  border: 1px solid #252525;
+  min-width: 6.25%;
+  width: 6.25%;
+}
+.bottom {
+  border-top: 1px solid #717171;
+}
+
+@media(min-width:768px)
+{
+  .fourth-screen table {
+    color: white;
+    width: 100%;
+    padding: 20px;
+    height: calc(50vh - 35.5px);
+}
+}
+
+.flag-btn {
+  display: flex;
+  align-items: center;
+}
+
+.second-screen .title > div:first-child + div, .first-screen .title > div:first-child + div  {
+  text-align: center;
+  font-weight: 500;
+  font-size: 19px;
+}
+
+
+.third-screen .chalButton {
+  background-color: #af3030;
+  margin: 0px;
+  border-radius: 8px;
+  width: 100%;
+  color: white;
+  padding: 4px 10px;
+}
+.third-screen .mileButton {
+  background-color: #34d54f;
+  border-radius: 8px;
+  width: 100%;
+  color: white;
+  padding: 4px 10px;
+}
+.fourth-screen table tbody td.spacer {
+  width: 50px;
+  max-width: 50px;
+  min-width: 50px;
+  background-color: black;
+}
+.third-screen table {
+  min-height: 400px;
+}
+
+.third-screen table td, table tr {
+  padding: 8px 5px;
+  border: 1px solid #222222;
+}
+.first-screen .mileButton, .second-screen .mileButton{
+  background-color: #34d54f;
+  padding: 4px 10px;
+  border-radius: 5px;
+  margin: 1px;
+  width: 100px;
+  color: white;
+}
+.first-screen .addButton, .second-screen .addButton {
+  width: 100%;
+  margin: 0;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.first-screen .button-wrap div, .second-screen .button-wrap div {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.first-screen .chalButton, .second-screen .chalButton {
+  background-color: #af3030;
+  padding: 4px 10px;
+  border-radius: 5px;
+  margin: 1px;
+  width: 100px;
+  color: white;
+}
+.first-screen .chapter .next, .second-screen .chapter .next {
+  background-color: #097405;
+  padding: 10px 20px;
+  margin: 9px;
+  color: white;
+  border-radius: 4px;
+}
+.first-screen  td.table-title, .second-screen  td.table-title  {
+  width: 50px;
+  background-color: #101010;
+}
+
+.first-screen  td, .second-screen  td {
+  border: 1px solid #252525;
+}
+.form-inner>div:first-child {
+  font-size: 24px;
+}
+.form-inner {
+  background-color: #fff;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 18px;
+  padding: 22px;
+}
+.form-inner {
+  background-color: #fff;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 18px;
+  padding: 22px;
+  font-weight: 400;
+}
+.main-bg {
+  background-image: url(/images/main-bg.jpg);
+  height: 100vh;
+    display: table;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.form-inner .submit-btn {
+  width: 50%;
+  padding: 12px;
+  background-color: #323232;
+  font-family: 'Circular-Loom';
+  letter-spacing: 1px;
+}
+.form-sec {
+  display: table-cell;
+  width: 600px;
+  vertical-align: middle;
+}
+.form-sec .full-w {
+  width: 100%;
+}
+
+.denote table {
+  height: auto;
+}
+
+.fourth-screen .denote table td, .fourth-screen .denote table tr {
+  border: 0;
+}
+.fourth-screen .denote table tbody td.spacer {
+  background: #fff;
+}
+
+.denote table td span {
+  color: #4caf50;
+  font-weight: 600;
+}
+.denote table td img {
+  width: 160px;
+  height: 83px;
+  transform: rotate(269deg);
+  position: relative;
+}
+
+.form-error {
+  color: red;
+  position: relative;
+  top: 6px;
+  left: 0;
+  text-align: initial;
+}
